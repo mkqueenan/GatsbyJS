@@ -1,7 +1,11 @@
 import { navigate } from 'gatsby'
 
 const PageNotFound = () => {
-    navigate('/')
+    try {
+        navigate('/')
+    } catch (err) {
+        console.log(err)
+    }
     return null
 }
 
