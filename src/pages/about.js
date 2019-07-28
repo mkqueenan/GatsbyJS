@@ -1,12 +1,13 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
+import Layout from '../components/layout'
+import Head from '../components/head'
 
 const AboutPage = () => {
     return (
         <div>
             <Layout>
-                {" "}
+                <Head title="About" />
                 <h1>About Me</h1>
                 <p>
                     I'm a recent graduate from the College of Engineering at
